@@ -1,0 +1,52 @@
+Verilen dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+İlk Adım:
+
+Root: 7
+Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+İkinci Adım:
+
+7'nin Solunda: 5
+7'nin Sağında: 8
+Dizi: [5, 1, 8, 3, 6, 0, 9, 4, 2]
+Üçüncü Adım:
+
+5'in Solunda: 1
+5'in Sağında: 6
+8'in Sağında: 9
+Dizi: [1, 8, 3, 6, 0, 9, 4, 2]
+Dördüncü Adım:
+
+1'in Solunda: 0
+1'in Sağında: 3
+6'nın Sağında: (Henüz bir eleman eklenmedi)
+9'un Sağında: (Henüz bir eleman eklenmedi)
+Dizi: [0, 3, 6, 4, 2]
+Beşinci Adım:
+
+3'ün Sağında: 4
+3'ün Solunda: 2
+6'nın Solunda: (Henüz bir eleman eklenmedi)
+Dizi: [4, 2]
+Altıncı Adım:
+
+4'ün Solunda: (Henüz bir eleman eklenmedi)
+6'nın Sağında: (Henüz bir eleman eklenmedi)
+Dizi: []
+Sonuç:
+
+Root: 7
+Sağ: 8
+Sağ: 9
+Sol: 5
+Sağ: 6
+Sol: 1
+Sağ: 3
+Sağ: 4
+Sol: 2
+Sol: 0
+
+
+
+
+
